@@ -294,6 +294,9 @@ a .bi {
           align-items: center;
   padding: 30px 40px;
   width: 100%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 #whychooseus .leftpart h2 {
   font-family: "Aleo", sans-serif;
@@ -313,7 +316,7 @@ a .bi {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 300px;
+  margin-right: 180px;
 }
 #whychooseus .rightpart .first {
   padding: 0 30px 0px 0px;
@@ -323,12 +326,46 @@ a .bi {
 }
 
 #workingprocess {
+  background-image: url("../images/workingprocessbackground.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #workingprocess .logos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 80px 0px 40px 0px;
+}
+#workingprocess .logos i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+#workingprocess .logos p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+#workingprocess .line {
+  width: 200px;
+  height: 150px;
+  border: solid 2px #ccc;
+  border-color: white transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
 }

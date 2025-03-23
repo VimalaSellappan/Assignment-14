@@ -359,8 +359,9 @@ a .bi {
   margin-bottom: 10px;
 }
 #workingprocess .logos p {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Aleo", sans-serif;
   font-size: 16px;
+  color: white;
 }
 #workingprocess .line {
   width: 200px;

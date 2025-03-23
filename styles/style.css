@@ -283,6 +283,7 @@ a .bi {
   }
 }
 #whychooseus {
+  background-image: url("../images/whychosebackground.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,7 +293,7 @@ a .bi {
       -ms-flex-align: center;
           align-items: center;
   padding: 30px 40px;
-  margin-right: 80px;
+  width: 100%;
 }
 #whychooseus .leftpart h2 {
   font-family: "Aleo", sans-serif;
@@ -312,10 +313,22 @@ a .bi {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 300px;
 }
 #whychooseus .rightpart .first {
   padding: 0 30px 0px 0px;
 }
 #whychooseus .rightpart .second {
   padding: 10px 0px 0px 30px;
+}
+
+#workingprocess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#workingprocess .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

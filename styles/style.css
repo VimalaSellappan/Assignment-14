@@ -1,0 +1,100 @@
+header {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/headerbackground.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subcontainer_1 {
+  line-height: 0.5;
+  padding: 40px;
+}
+.subcontainer_1 h1 {
+  font-size: 45px;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.subcontainer_1 p {
+  color: white;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 30px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+form input {
+  padding: 11px;
+  border: none;
+  width: 250px;
+  font-size: 16px;
+}
+form button {
+  padding: 12px;
+  height: 40px;
+  background-color: #2196F3;
+  color: white;
+  font-size: 16px;
+  border: 1px solid white;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+form button i {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+form button:hover {
+  background-color: blue;
+}
+
+.scroll-down {
+  font-family: "josefin sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.scroll-down:hover {
+  color: blue;
+}
+
+a .bi {
+  padding-left: 40px;
+}
+
+.scroll-option {
+  padding: 40px 0px 40px 120px;
+}

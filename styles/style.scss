@@ -85,10 +85,12 @@ form {
     .top_container{
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         padding:20px;
         width: 100%;
         background-color: #5474FD;
+        overflow: hidden;
+        box-sizing: border-box;
         
     }
     .head{
@@ -103,6 +105,7 @@ form {
         font-size: 14px;
         gap:30px;
         padding-right: 80px;
+        
     }
     .tabs{
         list-style-type: none;
@@ -150,7 +153,48 @@ form {
         .menu-toggle:checked + .icon {
             display: none;
         }
+        .leftpart,
+        .rightpart {
+            width: 100%; 
+            text-align: center;
+            margin: 0;
+            padding: 10px;
         }
+
+        .rightpart {
+            gap: 10px;
+
+            .first,
+            .second {
+                padding: 0;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    @media (max-width: 480px) {
+        
+    
+        .leftpart h2 {
+            font-size: 28px;
+        }
+    
+        .leftpart p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    
+        .rightpart .first,
+        .rightpart .second {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 90%;
+            }
+        }
+    }
+       
         @media (min-width: 768px) { 
             .menu-toggle {
                 display: none;
@@ -202,3 +246,33 @@ form {
             padding: 10px;
           }
         }
+#whychooseus{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 30px 40px;
+    margin-right: 80px;
+    .leftpart{
+        
+    h2{
+        font-family: 'Aleo',sans-serif;
+        font-size: 36px;
+    }
+    p{
+        font-family: 'josefin sans',sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+    }
+        }
+    .rightpart{
+        display: flex;
+        flex-direction: column;
+        .first{
+            padding: 0 30px 0px 0px;
+        }
+        .second{
+            padding: 10px 0px 0px 30px;
+        }
+    }
+    }

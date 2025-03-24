@@ -604,3 +604,54 @@ a .bi {
       -ms-flex-align: center;
           align-items: center;
 }
+
+#footer {
+  background-color: #111;
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+#footer .content h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+#footer .content p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+#footer .content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+#footer .content .icons a {
+  color: white;
+  font-size: 18px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#footer .content .icons a:hover {
+  color: #5474FD;
+}
+@media (max-width: 768px) {
+  #footer .content h2 {
+    font-size: 20px;
+  }
+  #footer .content p {
+    font-size: 12px;
+  }
+  #footer .content .icons {
+    gap: 10px;
+  }
+  #footer .content .icons a {
+    font-size: 16px;
+  }
+}

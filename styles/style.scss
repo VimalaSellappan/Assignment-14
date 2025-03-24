@@ -498,8 +498,6 @@ form {
         }
     }
 }
-
-    
 #testimonial {
     background-color: #1a1a1a;
     padding: 60px 20px;
@@ -550,6 +548,66 @@ form {
                     text-align: left;
                     align-items: center;
                                    
+                }
+            }
+        }
+    }
+}
+#footer {
+    background-color: #111;
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+
+    .content {
+        h2 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 24px;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+        .icons  {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            
+
+            a {
+                color: white;
+                font-size: 18px;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: #5474FD;
+                }
+            }
+        }
+    }
+
+    
+    @media (max-width: 768px) {
+        .content {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            .icons {
+                gap: 10px;
+
+                a {
+                    font-size: 16px;
                 }
             }
         }

@@ -301,12 +301,14 @@ a .bi {
 #whychooseus .leftpart h2 {
   font-family: "Aleo", sans-serif;
   font-size: 36px;
+  color: white;
 }
 #whychooseus .leftpart p {
   font-family: "josefin sans", sans-serif;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 1.6px;
+  color: white;
 }
 #whychooseus .rightpart {
   display: -webkit-box;
@@ -369,4 +371,177 @@ a .bi {
   border: solid 2px #ccc;
   border-color: white transparent transparent transparent;
   border-radius: 50%/100px 100px 0 0;
+}
+
+#destinationplace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#destinationplace .firstdestination {
+  background-image: url("../images/destinationbackground1.png");
+  height: 600px;
+}
+#destinationplace .firstdestination .card {
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+#destinationplace .firstdestination .card .place, #destinationplace .firstdestination .card h2 {
+  font-family: "josefin sans", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+#destinationplace .firstdestination .card p {
+  font-size: 16px;
+  font-family: "josefin sans", sans-serif;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+#destinationplace .firstdestination .card .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-100%, -10%);
+          transform: translate(-100%, -10%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  color: #fff;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+}
+#destinationplace .firstdestination .card .content button {
+  background-color: #5474FD;
+  font-family: "Aleo", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+#destinationplace .firstdestination .card .content button:hover {
+  background-color: blue;
+}
+#destinationplace .seconddestination {
+  background-image: url("../images/destinationbackground2.png");
+}
+#destinationplace .seconddestination .card {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+#destinationplace .seconddestination .card .place, #destinationplace .seconddestination .card h2 {
+  font-family: "josefin sans", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+#destinationplace .seconddestination .card .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  color: #fff;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+}
+#destinationplace .seconddestination .card .content p {
+  font-size: 16px;
+  font-family: "josefin sans", sans-serif;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+#destinationplace .seconddestination .card .content button {
+  background-color: #5474FD;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+#destinationplace .seconddestination .card .content button:hover {
+  background-color: blue;
+}
+
+@media (max-width: 768px) {
+  #destinationplace {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #destinationplace .firstdestination, #destinationplace .seconddestination {
+    height: 300px;
+  }
+  #destinationplace .firstdestination .card, #destinationplace .seconddestination .card {
+    height: 280px;
+  }
+  #destinationplace .firstdestination .card .content, #destinationplace .seconddestination .card .content {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -30%);
+            transform: translate(-50%, -30%);
+  }
+  #destinationplace .firstdestination .card .content h2, #destinationplace .firstdestination .card .content .place, #destinationplace .seconddestination .card .content h2, #destinationplace .seconddestination .card .content .place {
+    font-size: 16px;
+  }
+  #destinationplace .firstdestination .card .content p, #destinationplace .seconddestination .card .content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #destinationplace .firstdestination .card .content button, #destinationplace .seconddestination .card .content button {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  #destinationplace .firstdestination,
+  #destinationplace .seconddestination {
+    height: 250px;
+  }
+  #destinationplace .firstdestination .card,
+  #destinationplace .seconddestination .card {
+    height: 230px;
+  }
+  #destinationplace .firstdestination .card .content,
+  #destinationplace .seconddestination .card .content {
+    width: 90%;
+    padding: 15px;
+  }
+  #destinationplace .firstdestination .card .content h2, #destinationplace .firstdestination .card .content .place,
+  #destinationplace .seconddestination .card .content h2,
+  #destinationplace .seconddestination .card .content .place {
+    font-size: 14px;
+  }
+  #destinationplace .firstdestination .card .content p,
+  #destinationplace .seconddestination .card .content p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #destinationplace .firstdestination .card .content button,
+  #destinationplace .seconddestination .card .content button {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
 }

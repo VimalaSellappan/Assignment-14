@@ -545,3 +545,62 @@ a .bi {
     font-size: 12px;
   }
 }
+#testimonial {
+  background-color: #1a1a1a;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+#testimonial h2 {
+  font-size: 36px;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  margin-bottom: 40px;
+}
+#testimonial .testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+#testimonial .testimonial .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  max-width: 900px;
+  gap: 20px;
+}
+#testimonial .testimonial .card img {
+  width: 200px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+#testimonial .testimonial .card .content h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+}
+#testimonial .testimonial .card .content p {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 24px;
+  color: white;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
